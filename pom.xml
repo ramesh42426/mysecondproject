@@ -22,4 +22,15 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+<distributionManagement>
+  <snapshotRepository>
+     <id>rameshsnap</id>
+     <url>http://35.193.59.87:8081/nexus/content/repositories/rameshsnap/</url>
+  </snapshotRepository>
+  <repository>
+   <id>rameshrelease</id>
+   <url>http://35.193.59.87:8081/nexus/content/repositories/rameshrelease/</url>
+  </repository>
+ </distributionManagement>
 </project>
+
